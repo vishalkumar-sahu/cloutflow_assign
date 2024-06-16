@@ -1,0 +1,31 @@
+.rating{
+    font-size: 20px !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .rating{
+        font-size: 11px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+    .rating{
+        font-size: 15px !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+    .rating{
+        font-size: 18px !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    .rating{
+        font-size: 20px !important;
+    }
+}

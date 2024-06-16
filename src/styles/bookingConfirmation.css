@@ -1,0 +1,83 @@
+.content{
+    padding: 0 4rem;
+    height: 80vh;
+}
+
+.innerContent{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking-card{
+    width: 60%;
+}
+
+p{
+    font-size: large;
+}
+
+.rating{
+    font-size: 20px !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .content{
+        padding: 0 0.6rem !important;
+    }
+
+    .booking-card{
+        width: 100%;
+    }
+
+    .rating{
+        font-size: 13px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+    .content{
+        padding: 0 1rem !important;
+    }
+
+    .booking-card{
+        width: 90%;
+    }
+
+    .rating{
+        font-size: 15px !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+    .content{
+        padding: 0 2rem !important;
+    }
+
+    .booking-card{
+        width: 80%;
+    }
+
+    .rating{
+        font-size: 18px !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    .content{
+        padding: 0 3rem !important;
+    }
+
+    .booking-card{
+        width: 70%;
+    }
+
+    .rating{
+        font-size: 20px !important;
+    }
+}
