@@ -11,7 +11,7 @@ https://cloutflow-assign.onrender.com/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-repo/cloutflow-assign.git
+   git clone https://github.com/vishalkumar-sahu/cloutflow_assign.git
    cd cloutflow-assign
    ```
 
